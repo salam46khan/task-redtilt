@@ -1,0 +1,19 @@
+.gradient-text{
+    background-image: linear-gradient(#ff6767, #bd1214);
+    color: transparent;
+    background-clip: text;
+}
+.hero-btn{
+    color: white;
+    border: 1px solid #bd121430;
+    background: linear-gradient(90deg, #720204 ,#c71417 40%,#720204 );
+    padding: 16px;
+    border-radius: 50px;
+    box-shadow: 0px 30px 60px #f50c0c56;
+    transition: 0.3s;
+    border: none;
+}
+.hero-btn:hover{
+    background:  linear-gradient(90deg, #440102 ,#c71417 60% );
+    
+}
