@@ -10,7 +10,7 @@ const Partners = () => {
     return (
         <div className="py-10 bg-dark">
             <div className="container">
-                <h3 className="text-center uppercase font-semibold text-slate-300">Trusted By Our Partners</h3>
+                <h3 className="text-center uppercase text-gray-300">Trusted By Our Partners</h3>
 
                 <div className='py-5'>
                     <Marquee>

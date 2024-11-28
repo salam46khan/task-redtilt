@@ -6,7 +6,7 @@ import { TbWorld } from "react-icons/tb";
 const OfferCard = ({card}) => {
     
     return (
-        <div className="offar-card w-full max-w-[340px] rounded-[15px] p-2 relative min-h-[400px]">
+        <div className="offar-card w-full tablet:max-w-[310px] max-w-[350px] desktop:max-w-[340px] rounded-[15px] p-2 relative min-h-[400px]">
             <div className="absolute top-0 left-0 -translate-x-3 -translate-y-10">
                 <h1 className="text-[180px] font-bold opacity-5 text-white">{card.id}</h1>
             </div>
