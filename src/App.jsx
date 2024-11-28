@@ -4,6 +4,8 @@ import Partners from './sections/Partners/Partners';
 import Offer from './sections/Offer/Offer';
 import Superpower from './sections/Superpower/Superpower';
 import Blog from './sections/Blog/Blog';
+import Yourself from './sections/Yourself/Yourself';
+import Footer from './shared/Footer/Footer';
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
         <Offer />
         <Superpower />
         <Blog />
+        <Yourself />
+        <Footer />
     </div>
   );
 };

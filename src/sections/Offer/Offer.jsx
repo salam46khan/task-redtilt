@@ -11,7 +11,7 @@ const Offer = () => {
         {
             id: "02",
             name: "MSP",
-            cardItem: ['Infrastructor managed', "Managed Monitoring", "Business Continuity", "Manage Cyber"]
+            cardItem: ['Infrastructor manag', "Managed Monitoring", "Business Continuity", "Manage Cyber"]
         },
         {
             id: "03",

@@ -1,6 +1,6 @@
 import './Blog.css'
 import blog from '../../assets/image/blog.png'
-import { FaArrowRight } from 'react-icons/fa';
+import { FaArrowRight, FaCheckCircle } from 'react-icons/fa';
 import { IoArrowForwardOutline } from 'react-icons/io5';
 const Blog = () => {
     return (
@@ -27,8 +27,15 @@ const Blog = () => {
                             <div className='flex justify-between items-center'>
                                 <div>
                                     <ul>
-                                        <li className='blog-list'>Collaboration tools</li>
-                                        <li className='blog-list'>Collaboration tools</li>
+                                        <li className='blog-list'>
+                                            <FaCheckCircle className='text-red-500 text-xl' />
+                                            Collaboration tools
+                                        </li>
+                                        <li className='blog-list'>
+                                            <FaCheckCircle className='text-red-500 text-xl' />
+                                            Collaboration tools
+                                        </li>
+                                        
                                     </ul>
                                 </div>
                                 <div>

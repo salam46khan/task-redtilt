@@ -1,0 +1,9 @@
+.yourself-list{
+    /* list-style-image: url('../../assets/image/red-tick.png');
+    list-style-position: inside; */
+    color: #c5c5c5;
+    font-size: 18px;
+    padding: 3px 0;
+    display: flex;
+    gap: 10px;
+}

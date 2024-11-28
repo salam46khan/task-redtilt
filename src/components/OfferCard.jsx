@@ -1,10 +1,11 @@
 import { BsShieldLock } from "react-icons/bs";
+import { FaCheckCircle } from "react-icons/fa";
 import { IoCloudUploadOutline } from "react-icons/io5";
 import { MdDeveloperBoard } from "react-icons/md";
 import { TbWorld } from "react-icons/tb";
 
-const OfferCard = ({card}) => {
-    
+const OfferCard = ({ card }) => {
+
     return (
         <div className="offar-card w-full tablet:max-w-[310px] max-w-[350px] desktop:max-w-[340px] rounded-[15px] p-2 relative min-h-[400px]">
             <div className="absolute top-0 left-0 -translate-x-3 -translate-y-10">
@@ -29,7 +30,10 @@ const OfferCard = ({card}) => {
 
             <div className="offar-card-inner p-6 w-5/6 min-h-72 relative translate-x-1/3 translate-y-5 rounded-3xl">
                 <ul >
-                    {card?.cardItem?.map(list => <li className="list-item">{list}</li>)}
+                    {card?.cardItem?.map(list => <li className="list-item">
+                        <FaCheckCircle className='text-slate-100 text-xl'/>
+                        {list}
+                    </li>)}
                 </ul>
             </div>
         </div>
