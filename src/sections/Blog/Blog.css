@@ -1,5 +1,5 @@
 .blog-card{
-    background: #ffffff05;
+    /* background: #ffffff05; */
     border-radius: 18px;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
@@ -17,7 +17,6 @@
 .blog-list{
     /* list-style-image: url('../../assets/image/red-tick.png');
     list-style-position: inside; */
-    color: #e0e0e0;
     font-size: 18px;
     padding: 3px 0;
     display: flex;

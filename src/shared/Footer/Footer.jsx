@@ -15,7 +15,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='flex justify-around flex-col mt-10 tablet:flex-row text-white'>
+                <div className='flex gap-5 justify-around flex-col mt-10 tablet:flex-row text-white'>
                     <div className=''>
                         <p className='font-semibold mb-3'>Company</p>
                         <ul className='space-y-1'>
@@ -44,7 +44,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='flex justify-center tablet:justify-between items-center flex-col tablet:flex-row mt-5'>
+                <div className='flex gap-5 justify-center tablet:justify-between items-center flex-col tablet:flex-row mt-5'>
                     <p className='text-[14px] text-gray-400'>© Copyright 2024, All Rights Reserved by Redtilt.</p>
                     <ul className='flex justify-center items-center gap-4'>
                         <li>

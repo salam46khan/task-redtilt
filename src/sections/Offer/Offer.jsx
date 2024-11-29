@@ -25,12 +25,12 @@ const Offer = () => {
         }
     ]
     return (
-        <div className='py-10 bg-dark'>
+        <div className='py-10 dark:bg-dark bg-lignt'>
             <div className="container p-2">
-                <h2 className='text-3xl text-white text-center'>What we Offer</h2>
+                <h2 className='text-3xl dark:text-white text-black text-center'>What we Offer</h2>
                 <div className='flex justify-center mt-4'>
                     <div className='inline-block border px-4 py-3 rounded-full border-red-600'>
-                        <p className='text-slate-300 text-center'>Our Experts Will Help You In Following Fields</p>
+                        <p className='dark:text-slate-300 text-slate-800 text-center'>Our Experts Will Help You In Following Fields</p>
                     </div>
                 </div>
 

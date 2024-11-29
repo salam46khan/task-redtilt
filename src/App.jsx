@@ -6,17 +6,24 @@ import Superpower from './sections/Superpower/Superpower';
 import Blog from './sections/Blog/Blog';
 import Yourself from './sections/Yourself/Yourself';
 import Footer from './shared/Footer/Footer';
+import Header from './shared/Header/Header';
+import Headroom from 'react-headroom';
 
 const App = () => {
   return (
     <div className='font-NormalFont overflow-x-hidden'>
+      <Headroom className='z-20 relative'>
+        <Header />
+      </Headroom>
+      <main className=''>
         <Hero />
         <Partners />
         <Offer />
         <Superpower />
         <Blog />
         <Yourself />
-        <Footer />
+      </main>
+      <Footer />
     </div>
   );
 };

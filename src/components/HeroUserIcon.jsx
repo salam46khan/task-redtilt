@@ -9,7 +9,7 @@ const HeroUserIcon = () => {
                     <div className='h-[200px] w-[200px] border flex justify-center items-center hero-left-border'>
                         <div className='h-[150px] w-[150px] flex justify-center items-center hero-left-border' >
                             <div className='h-[80px] w-[80px] flex justify-center items-center rounded-full hero-icon'>
-                                <FaUsers className='text-4xl text-white' />
+                                <FaUsers className='text-4xl dark:text-white text-slate-800' />
                             </div>
                         </div>
                     </div>
